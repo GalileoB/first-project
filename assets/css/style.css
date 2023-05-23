@@ -1,0 +1,275 @@
+* {
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+}
+
+/* nav style */
+
+span img {
+    width: 150px;
+    height: 100px;
+}
+
+header {
+    background-color: #ced4da;
+}
+
+#nav {
+    margin-left: 50px;
+}
+
+#nav ul {
+    list-style: none;
+}
+
+#nav li {
+    float: right;
+    font-size: 25px;
+    margin-left: 25px;
+    margin-right: 20px;
+    margin-top: 35px;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+}
+
+#nav a {
+    color: rgb(0, 0, 0);
+}
+
+#nav>ul :hover {
+    color: rgb(126, 124, 124);
+}
+
+/* main page photo and header styiling */
+
+.section-one h1 {
+    width: 100%;
+    height: 500px;
+    background: url(../images/main-page-photo.jpg)no-repeat center center;
+    margin: 0;
+}
+
+/* foter style */
+
+footer {
+    background-color: #ced4da;
+    padding: 25px;
+}
+
+.footer-header {
+    text-align: center;
+    padding-bottom: 25px;
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+}
+
+.social-links {
+    text-align: center;
+}
+
+.social-links li {
+    display: inline;
+    margin: 1%;
+    padding: 2%;
+    font-size: 30px;
+}
+
+.social-links a {
+    color: black;
+}
+
+.info-table {
+    display: inline;
+}
+
+/* gallery */
+
+#photos {
+    clear: both;
+    line-height: 0;
+    column-count: 5;
+    column-gap: 2px;
+}
+
+#photos {
+    margin-top: 20px;
+}
+
+#photos img {
+    width: 100%;
+    margin: 0.5px;
+}
+
+/* form style on contact us page */
+
+.contact-form {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+label {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    font-family: "Roboto", sans-serif;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    font-size: 1.2rem;
+}
+
+input[type="submit"] {
+    padding: 0.5rem;
+    margin-top: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #0077b6;
+    color: #fff;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+input[type="submit"]:hover {
+    background-color: #023e8a;
+}
+
+/* media quiries */
+
+/* for screen 1200px and below */
+
+@media screen and (max-width: 1200px) {
+    #nav {
+        background-color: #ced4da;
+        clear: both;
+    }
+
+    #nav a {
+        font-size: 20px;
+    }
+
+    /* index page header and img  */
+
+    .section-one {
+        display: block;
+    }
+
+    .section-one img {
+        width: 80%;
+        margin: auto;
+        padding-top: 20px;
+    }
+
+    .section-one h1 {
+        font-size: 40px;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 12%;
+        margin-top: 13%;
+    }
+
+    /* gallery page  */
+
+    #photos {
+        clear: both;
+        line-height: 0;
+        column-count: 3;
+        column-gap: 2px;
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    /* contact us page */
+    .contact-form {
+        max-width: 400px;
+        margin: 0 auto;
+        padding-bottom: 25px;
+    }
+
+    /* footer style */
+    footer {
+        clear: both;
+        font-size: small;
+    }
+
+    footer h2 {
+        font-size: large;
+    }
+
+    footer a {
+        font-size: large;
+    }
+}
+
+/* media screen for less then 768 px */
+
+@media screen and (max-width: 768px) {
+    /* Nav bar style */
+
+    #nav li {
+        background-color: #ced4da;
+        display: flex;
+        float: right;
+        margin: 5px;
+    }
+
+    #nav a {
+        font-size: 12px;
+    }
+
+    span img {
+        width: 75px;
+        height: 40px;
+        margin-right: 10px;
+    }
+
+    /* gallery page */
+
+    #photos {
+        clear: both;
+        line-height: 0;
+        column-count: 2;
+        column-gap: 1px;
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    /* contact us page */
+
+    .contact-form {
+        max-width: 300px;
+        margin: 0 auto;
+        padding-bottom: 25px;
+    }
+
+    /* footer style */
+
+    footer {
+        clear: both;
+    }
+
+    footer h2 {
+        font-size: small;
+    }
+
+    footer a {
+        font-size: small;
+    }
+}
