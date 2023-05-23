@@ -53,6 +53,19 @@ header {
     margin: 0;
 }
 
+.section-two {
+    display: flex;
+    justify-content: space-around;
+}
+
+.section-two {
+    height: 300px;
+}
+
+.section-two div {
+    border: 1px solid black;
+}
+
 /* foter style */
 
 footer {
