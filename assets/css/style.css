@@ -125,7 +125,7 @@ footer {
 #photos {
     clear: both;
     line-height: 0;
-    column-count: 5;
+    column-count: 4;
     column-gap: 2px;
 }
 
@@ -136,7 +136,14 @@ footer {
 #photos img {
     width: 100%;
     margin: 0.5px;
+    transition: 0.3s ease-in-out;
 }
+
+#photos img:hover {
+    width: 105%;
+}
+
+
 
 /* product page */
 
