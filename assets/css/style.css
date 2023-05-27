@@ -140,7 +140,7 @@ footer {
 }
 
 #photos img:hover {
-    width: 105%;
+    width: 101%;
 }
 
 
@@ -171,17 +171,14 @@ footer {
     height: 600p;
     border-radius: 10px;
     margin: 5px;
-    transition: 0.3s ease-in-out;
-}
-
-.container img:hover {
-    width: 360px;
 
 }
+
 
 .container div {
     padding-bottom: 50px;
     margin-top: 20px;
+    transition: 0.3s ease-in-out;
 }
 
 .container button {
@@ -193,7 +190,6 @@ footer {
     color: #fff;
     font-size: 12px;
     cursor: pointer;
-    transition: background-color 0.1s ease-in-out
 }
 
 .container button:hover {
@@ -256,6 +252,7 @@ input[type="submit"]:hover {
 /* for screen 1200px and below */
 
 @media screen and (max-width: 1200px) {
+
     #nav {
         background-color: #ced4da;
         clear: both;
@@ -272,7 +269,6 @@ input[type="submit"]:hover {
     }
 
     .section-one img {
-        width: 80%;
         margin: auto;
         padding-top: 20px;
     }
@@ -284,6 +280,77 @@ input[type="submit"]:hover {
         margin-bottom: 12%;
         margin-top: 13%;
     }
+
+
+    /* section two on main page */
+
+    .stores {
+        display: block;
+        border: none;
+    }
+
+    .stores div {
+        font-size: small;
+        border-radius: 0%;
+        text-align: center;
+    }
+
+    /* product page */
+
+    .container {
+        display: flex;
+        justify-content: space-evenly;
+        font-family: roboto, sans-serif;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    .container h1 {
+        margin: 0;
+        padding: 0;
+        font-size: 10px;
+    }
+
+    .container p {
+        margin: 0;
+        padding: 0;
+        font-size: 10px;
+    }
+
+    .container img {
+        width: 250px;
+        height: 250px;
+        border-radius: 10px;
+        margin: 5px;
+        transition: 0.3s ease-in-out;
+    }
+
+    .container div {
+        padding-bottom: 10px;
+        margin-top: 5px;
+    }
+
+    .container button {
+        padding: 0.5rem;
+        margin-top: 1rem;
+        border: none;
+        border-radius: 5px;
+        background-color: #000000;
+        color: #fff;
+        font-size: 10px;
+        cursor: pointer;
+        transition: background-color 0.1s ease-in-out
+    }
+
+    .container button:hover {
+        background-color: #526f94;
+    }
+
+    .container a {
+        color: #fff;
+    }
+
+
 
     /* gallery page  */
 
@@ -338,6 +405,63 @@ input[type="submit"]:hover {
         width: 75px;
         height: 40px;
         margin-right: 10px;
+    }
+
+
+    .sale-page {
+        text-align: center;
+    }
+
+    .container {
+        display: block;
+        align-items: center;
+        font-family: roboto, sans-serif;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    .container h1 {
+        margin: 0;
+        padding: 0;
+        font-size: 10px;
+    }
+
+    .container p {
+        margin: 0;
+        padding: 0;
+        font-size: 10px;
+    }
+
+    .container img {
+        width: 300px;
+        height: 700p;
+        border-radius: 10px;
+        margin: 5px;
+    }
+
+    .container div {
+        padding-bottom: 10px;
+        margin-top: 5px;
+    }
+
+    .container button {
+        padding: 0.5rem;
+        margin-top: 1rem;
+        border: none;
+        border-radius: 5px;
+        background-color: #000000;
+        color: #fff;
+        font-size: 10px;
+        cursor: pointer;
+        transition: background-color 0.1s ease-in-out
+    }
+
+    .container button:hover {
+        background-color: #526f94;
+    }
+
+    .container a {
+        color: #fff;
     }
 
     /* gallery page */
