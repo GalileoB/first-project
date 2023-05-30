@@ -59,32 +59,23 @@ header {
 
 /* section two  */
 
-.section-two h2 {
-    text-align: center;
-    text-transform: uppercase;
+#times {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
 }
 
-.stores {
-    display: flex;
-    justify-content: space-evenly;
-    height: 200px;
-}
-
-.section-two {
+#times div {
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 20%;
     height: 300px;
-    padding: 20px;
-}
-
-.section-two h2 {
-    padding-bottom: 30px;
-}
-
-.stores div {
-    border: 1px solid #ced4da;
-    padding: 40px;
-    background-color: #bcc6ce;
-    border-radius: 5%;
-    font-family: roboto sans-serif;
+    float: left;
+    padding: 30px 0 0 10px;
+    text-align: center;
+    border: 2px solid white;
+    box-sizing: border-box;
 }
 
 /* foter style */
@@ -143,8 +134,6 @@ footer {
     width: 101%;
 }
 
-
-
 /* product page */
 
 .container {
@@ -171,9 +160,7 @@ footer {
     height: 600p;
     border-radius: 10px;
     margin: 5px;
-
 }
-
 
 .container div {
     padding-bottom: 50px;
@@ -252,7 +239,6 @@ input[type="submit"]:hover {
 /* for screen 1200px and below */
 
 @media screen and (max-width: 1200px) {
-
     #nav {
         background-color: #ced4da;
         clear: both;
@@ -274,24 +260,8 @@ input[type="submit"]:hover {
     }
 
     .section-one h1 {
-        font-size: 40px;
+        font-size: 30px;
         width: 100%;
-        text-align: center;
-        margin-bottom: 12%;
-        margin-top: 13%;
-    }
-
-
-    /* section two on main page */
-
-    .stores {
-        display: block;
-        border: none;
-    }
-
-    .stores div {
-        font-size: small;
-        border-radius: 0%;
         text-align: center;
     }
 
@@ -339,7 +309,7 @@ input[type="submit"]:hover {
         color: #fff;
         font-size: 10px;
         cursor: pointer;
-        transition: background-color 0.1s ease-in-out
+        transition: background-color 0.1s ease-in-out;
     }
 
     .container button:hover {
@@ -349,8 +319,6 @@ input[type="submit"]:hover {
     .container a {
         color: #fff;
     }
-
-
 
     /* gallery page  */
 
@@ -371,10 +339,6 @@ input[type="submit"]:hover {
     }
 
     /* footer style */
-    footer {
-        clear: both;
-        font-size: small;
-    }
 
     footer h2 {
         font-size: large;
@@ -406,7 +370,6 @@ input[type="submit"]:hover {
         height: 40px;
         margin-right: 10px;
     }
-
 
     .sale-page {
         text-align: center;
@@ -453,7 +416,7 @@ input[type="submit"]:hover {
         color: #fff;
         font-size: 10px;
         cursor: pointer;
-        transition: background-color 0.1s ease-in-out
+        transition: background-color 0.1s ease-in-out;
     }
 
     .container button:hover {
@@ -462,6 +425,17 @@ input[type="submit"]:hover {
 
     .container a {
         color: #fff;
+    }
+
+    #times>div {
+        width: 100%;
+        clear: both;
+        height: 200px;
+        padding: 0;
+    }
+
+    hr {
+        display: none;
     }
 
     /* gallery page */
