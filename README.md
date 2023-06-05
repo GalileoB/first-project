@@ -6,14 +6,14 @@ This is a simple website created as part of a coding project. The purpose of thi
 
 Table of Contents
 
-## Introduction
-## Features
-## Languages Used
-## Frameworks, Libraries & Programs Used
-## Testing
-## Deployment
-## Credits
-## acknowledgments
+- [Introduction]#Introduction
+- [Features]# Features
+# Languages Used
+# Frameworks, Libraries & Programs Used
+# Testing
+# Deployment
+# Credits
+# acknowledgments
 
 
 
