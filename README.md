@@ -1,21 +1,8 @@
-![Screenshoot of responsive page displayed on 3 size screens](./assets/images/responsive-page-screenshoot.png)
-
 # First Project
 
-This is a simple website created as part of a coding project. The purpose of this project is to demonstrate proficiency in HTML, CSS, and.
+![Screenshoot of responsive page displayed on 3 size screens](./assets/images/responsive-page-screenshoot.png)
 
-## Table of Contents
-
-## Introduction
-## Features
-## Languages Used
-## Frameworks, Libraries & Programs Used
-## Testing
-## Deployment
-## Credits
-## acknowledgments
-
-
+This is a simple website created as part of a coding project. The purpose of this project is to demonstrate proficiency in HTML and CSS.
 
 ## Introduction
 
