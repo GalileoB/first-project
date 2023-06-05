@@ -1,39 +1,90 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+![Screenshoot of responsive page displayed on 3 size screens](../first-project/assets/images/responsive-page-screenshoot.png)
 
-Welcome,
+# First Project
 
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+This is a simple website created as part of a coding project. The purpose of this project is to demonstrate proficiency in HTML, CSS, and.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **May 11th, 2023**
+Table of Contents
 
-## Codeanywhere Reminders
+## Introduction
+## Features
+## Languages Used
+## Frameworks, Libraries & Programs Used
+## Testing
+## Deployment
+## Credits
+## acknowledgments
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
 
-`python3 -m http.server`
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+## Introduction
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+This website was created as a learning project to practice web development skills. The website is a  simple 4 page design with a responsive layout that adjusts to different screen sizes.
 
-`http_server`
+The website includes a Featured page, a product page, a Gallery page and a  Contact Us page. The Featured page provides a brief overview of the website. The Product page showcases some sample products with price, purchase options and images. The Gallery page provides some sample photos of the new products and what what can be found on this brands website. The contact page includes a form where visitors can submit their contact information.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## Features
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+The website includes the following features:
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+- Responsive layout that adjusts to different screen sizes
+- Navigation menu
+- Contact form with validation to ensure all fields are filled out correctly
+- Success message that displays after the contact form is submitted
 
-To log into the Heroku toolbelt CLI:
+## Languages Used
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+- HTML
+- CSS
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+## Frameworks, Libraries & Programs Used
 
----
+-Hover.css
 
-Happy coding!
+	- Hover were used on navigation menu to change the color of text.
+	- Hover effect were used on Gallery page to pop-up the image.
+	- Hover were used on product page on buttons ”More Details” to change the color.
+	- Hover were used on button one Contact Us page on “Submit” Button.
+	- On Footer on all pages, on social media links pointer changes while hovering. 
+
+- Google Fonts:
+
+  - Google fonts were used to import the "Roboto" font into the style.css file which is used on all pages throughout the project.
+
+- Font Awesome
+
+  - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes
+
+- GitHub:
+
+  - GitHub is used to store the projects code after being pushed from Git.
+
+# Testing
+
+	- W3C CSS Validator
+	- W3C Markup Validator.
+
+## Deployment
+
+The project was deployed to GitHub Pages using the following steps...
+
+1. Log in to GitHub and locate the GitHub Repository
+2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
+4. Under "Source", click the dropdown called "None" and select "Master Branch".
+5. The page will automatically refresh.
+6. Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
+
+## Credits
+
+- Content
+  - All content was Written by Developer
+
+- Media
+  - Medias were downloaded from Unsplash.com and pexels.com
+
+## acknowledgments
+
+	- Thanks to my mentor for helpful feedback.
+	- Tutor support at Code institute for their support.
+	- Slack community for their support.  
