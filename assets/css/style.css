@@ -26,6 +26,10 @@ header {
     list-style: none;
 }
 
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
 #nav li {
     float: right;
     font-size: 25px;
@@ -127,6 +131,13 @@ footer {
 }
 
 /* gallery */
+
+.gallery-header h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    font-family: "Roboto", sans-serif
+}
 
 #photos {
     clear: both;
@@ -456,6 +467,8 @@ input[type="submit"]:hover {
 
     /* gallery page */
 
+
+
     #photos {
         clear: both;
         line-height: 0;
@@ -464,6 +477,8 @@ input[type="submit"]:hover {
         width: 95%;
         margin: 0 auto;
     }
+
+
 
     /* contact us page */
 
