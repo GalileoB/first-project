@@ -141,9 +141,6 @@ footer {
     column-gap: 2px;
 }
 
-#photos {
-    margin-top: 20px;
-}
 
 #photos img {
     width: 100%;
@@ -342,13 +339,6 @@ input[type="submit"]:hover {
 
     /* gallery page  */
 
-    .gallery-header h1 {
-        text-align: center;
-        text-transform: uppercase;
-        color: rgb(0, 0, 0);
-        font-family: "Roboto", sans-serif;
-        font-size: 25px;
-    }
 
     #photos {
         clear: both;
