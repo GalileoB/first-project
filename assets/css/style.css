@@ -133,12 +133,6 @@ footer {
 
 /* gallery */
 
-.gallery-header h1 {
-    text-align: center;
-    text-transform: uppercase;
-    color: rgb(0, 0, 0);
-    font-family: "Roboto", sans-serif
-}
 
 #photos {
     clear: both;
