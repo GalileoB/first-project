@@ -216,6 +216,11 @@ footer {
 
 /* form style on contact us page */
 
+.contact-header {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+}
+
 .contact-form {
     margin-top: 50px;
     margin-bottom: 100px;
