@@ -171,7 +171,6 @@ footer {
 }
 
 .container p {
-    margin: 0;
     padding: 0;
     font-size: 12px;
 }
@@ -189,23 +188,20 @@ footer {
     transition: 0.3s ease-in-out;
 }
 
-.container button {
-    padding: 0.5rem;
-    margin-top: 1rem;
-    border: none;
-    border-radius: 5px;
-    background-color: #000000;
-    color: #fff;
-    font-size: 12px;
-    cursor: pointer;
-}
 
-.container button:hover {
+.container a:hover {
     background-color: #526f94;
 }
 
 .container a {
     color: #fff;
+    padding: 0.5rem;
+    margin-top: 2rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #000000;
+    font-size: 12px;
+    cursor: pointer;
 }
 
 /* form style on contact us page */
